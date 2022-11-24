@@ -22,13 +22,12 @@ button.addEventListener('click', function(){
     if(Birthdate != 0){
         answerContainer.classList.remove("hide");
 
-        answer.innerHTML = presentage + "years." ;
+        answer.innerHTML = "your age is " + presentage + "years." ;
     }
     else{
         window.alert("Please Enter your birthdate!!!")
     }
-    
-    
+  
 })
 
 
