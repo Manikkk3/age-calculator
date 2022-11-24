@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.head{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    background-color: cadetblue;
+    padding:  60px 40px;
+    border-radius: 5px;
+    
+}
+
+#age_btn{
+    
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#age_btn:hover{
+    background-color: brown;
+    color: white;
+    font-size: 1.5rem;
+    transition: smooth;
+    
+}
+
+.hide{
+    display: none;
+}
+
+#birthday{
+    outline: none;
+    font-size: 1.6rem;
+}
+
+.answer{
+    display: flex;
+    gap : 10px;
+} 
